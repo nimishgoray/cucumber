@@ -11,4 +11,4 @@ Feature: Add Todo
   "done": false
 }
       """
-    Then a 201 response is returned within 10000ms
+    Then the client receives status code of 200
